@@ -12,3 +12,12 @@ print "\n #{a}"
 print "\n #{a[0]}, #{a[1]}, #{a[2]}, #{a[-1]}"
 
 print "\n #{a.first}, #{a[1]}, #{a.last}, #{a.last == a[-1]}"
+
+print "\n"
+
+puts x = a.length
+puts x == 3
+puts x == 1
+puts x != 1
+puts x >= 1
+puts x < 1
