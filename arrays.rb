@@ -21,3 +21,13 @@ puts x == 1
 puts x != 1
 puts x >= 1
 puts x < 1
+
+print a 
+print "\n"
+puts a.empty?
+puts a.include?(42)
+print a.sort
+print "\n"
+print a.reverse
+print "\n"
+print a.shuffle
