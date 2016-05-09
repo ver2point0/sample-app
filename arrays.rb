@@ -31,3 +31,13 @@ print "\n"
 print a.reverse
 print "\n"
 print a.shuffle
+
+print "\n"
+
+print a 
+print "\n"
+print a.sort! 
+print "\n"
+print a
+
+print "\n"
