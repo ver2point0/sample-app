@@ -41,3 +41,12 @@ print "\n"
 print a
 
 print "\n"
+
+a.push(6) # push 6 onto array
+a << 7 # push 7 onto array
+a << "foo" << "bar" # chaining array pushes
+
+print a
+
+print "\n"
+
