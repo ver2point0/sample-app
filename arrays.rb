@@ -50,3 +50,12 @@ print a
 
 print "\n"
 
+print a
+
+a.join # join on nothing
+
+print "\n"
+print "428177foobar"
+print "\n"
+print a.join(', ')
+print "\n"
