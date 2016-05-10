@@ -59,3 +59,14 @@ print "428177foobar"
 print "\n"
 print a.join(', ')
 print "\n"
+
+# 0..9.to_a # NoMethodError
+print (0..9).to_a
+
+print "\n"
+
+a = %w[foo bar baz quux]
+print a
+print "\n"
+print a[0..2]
+print "\n"
