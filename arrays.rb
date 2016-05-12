@@ -70,3 +70,14 @@ print a
 print "\n"
 print a[0..2]
 print "\n"
+
+print a = (0..9).to_a
+print "\n"
+print a[2..(a.length - 1)] # explicitly used array's length
+print "\n"
+print a[2..-1] # use index -1 trick
+
+print "\n"
+print ('a'..'e').to_a
+
+print "\n"
