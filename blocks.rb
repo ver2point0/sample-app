@@ -11,3 +11,10 @@ end
 
 3.times { puts "Betelgeuse" }
 
+(1..5).map { |i| i**2 }
+
+%w[a b c]
+
+%w[a b c].map { |char| char.upcase }
+
+%w[A B C].map { |char| char.downcase }
