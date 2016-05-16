@@ -8,3 +8,6 @@ end
   puts 2 * number
   puts "--"
 end
+
+3.times { puts "Betelgeuse" }
+
