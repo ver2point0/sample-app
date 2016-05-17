@@ -18,3 +18,6 @@ end
 %w[a b c].map { |char| char.upcase }
 
 %w[A B C].map { |char| char.downcase }
+
+%w[A B C].map { |char| char.downcase }
+%w[A B C].map(&:downcase)
