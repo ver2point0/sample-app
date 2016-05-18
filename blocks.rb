@@ -21,3 +21,11 @@ end
 
 %w[A B C].map { |char| char.downcase }
 %w[A B C].map(&:downcase)
+
+('a'..'z').to_a # alphabet array
+
+('a'..'z').to_a.shuffle # shuffle it
+
+('a'..'z').to_a.shuffle[0..7] # pull out the first eight elements
+
+('a'..'z').to_a.shuffle[0..7].join # join them together to make on string
