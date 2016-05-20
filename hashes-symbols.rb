@@ -12,3 +12,5 @@ user["first_name"]
 
 # literal representation of a hash
 { "last_name"=>"Hartl", "first_name"=>"Michael" }
+
+user = { "first_name" => "Michael", "last_name" => "Hartl" }
