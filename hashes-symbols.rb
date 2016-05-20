@@ -14,3 +14,12 @@ user["first_name"]
 { "last_name"=>"Hartl", "first_name"=>"Michael" }
 
 user = { "first_name" => "Michael", "last_name" => "Hartl" }
+
+"name".split('') # ["n", "a", "m", "e"]
+
+:name.split('') # NoMethodError: undefined method 'split' for :name:Symbol
+
+"foobar".reverse # "raboof"
+
+:foobar.reverse # NoMethodError: undefined method 'reverse' for :foobar:Symbol
+
