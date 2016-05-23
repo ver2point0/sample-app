@@ -17,9 +17,18 @@ user = { "first_name" => "Michael", "last_name" => "Hartl" }
 
 "name".split('') # ["n", "a", "m", "e"]
 
-:name.split('') # NoMethodError: undefined method 'split' for :name:Symbol
+#:name.split('') # NoMethodError: undefined method 'split' for :name:Symbol
 
 "foobar".reverse # "raboof"
 
-:foobar.reverse # NoMethodError: undefined method 'reverse' for :foobar:Symbol
+# :foobar.reverse # NoMethodError: undefined method 'reverse' for :foobar:Symbol
 
+# a user can be defined as follows
+user = { :name => "Michael Hartl", :email => "michael@example.com" }
+user[:name] # acces name value
+user[:password] # access value of undefined key
+
+# new hash syntax
+h1 = { :name => "Michael Hartl", :email => "michael@example.com" }
+h2 = { name: "Michael Hartl", email: "michael@example.com" }
+h1 == h2
