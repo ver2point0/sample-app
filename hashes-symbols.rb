@@ -25,7 +25,7 @@ user = { "first_name" => "Michael", "last_name" => "Hartl" }
 
 # a user can be defined as follows
 user = { :name => "Michael Hartl", :email => "michael@example.com" }
-user[:name] # acces name value
+user[:name] # access name value
 user[:password] # access value of undefined key
 
 # new hash syntax
