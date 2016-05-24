@@ -32,3 +32,6 @@ user[:password] # access value of undefined key
 h1 = { :name => "Michael Hartl", :email => "michael@example.com" }
 h2 = { name: "Michael Hartl", email: "michael@example.com" }
 h1 == h2
+
+# nested hashes
+params = {}
