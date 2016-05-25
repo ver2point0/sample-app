@@ -35,3 +35,25 @@ h1 == h2
 
 # nested hashes
 params = {}
+params[:user] = { name: "Michael Hartl", email: "mhartl@example.com" }
+params
+params[:user][:email]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
