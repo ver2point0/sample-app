@@ -44,19 +44,10 @@ flash.each do |key, value|
   puts "Key #{key.inspect} has value #{value.inspect}"
 end
 
+puts (1..5).to_a
 
+puts (1..5).to_a.inspect
 
+puts :name, :name.inspect
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+puts "It worked!", "It worked!".inspect
