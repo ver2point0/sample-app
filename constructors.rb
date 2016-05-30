@@ -1,0 +1,2 @@
+s = "foobar"
+s.class
