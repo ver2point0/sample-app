@@ -1,5 +1,15 @@
 s = String.new("foobar")
-p s.class # string
-p s.class.superclass # object
-p s.class.superclass.superclass # BasicObject
-p s.class.superclass.superclass.superclass # nil
+s.class # string
+s.class.superclass # object
+s.class.superclass.superclass # BasicObject
+s.class.superclass.superclass.superclass # nil
+
+class Word
+  def palindrome?(string)
+    string == string.reverse
+  end
+end
+
+w = Word.new
+w.palindrome?("foobar") # false
+w.palindrome?("level") # false
